@@ -1,0 +1,29 @@
+body {
+  height: 100%;
+}
+
+#chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+#messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+#input {
+  display: flex;
+  align-items: center;
+}
+
+#input input {
+  flex: 1;
+}
+
+#input button {
+  flex: 0;
+  margin-left: 8px;
+}
